@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main(){
+    int a = 25,b = 4;
+    //Arithmetic Operators
+    printf("Sum of a and b is : %d\n", a+b);
+    printf("Difference of a and b is : %d\n", a-b);
+    printf("Product of a and b is : %d\n", a*b);
+    printf("Divison of a and b is : %d\n", a/b);
+    printf("Modulus of a and b is : %d\n", a%b);
+    printf("Increment operator on A results in : %d\n", a++);
+    printf("Decrement operator on A results in : %d\n", a--);\
+    //Logical Operators
+    printf("Logical And results in %d\n", a&&b);
+    printf("Logical Or results in %d\n",a||b);
+    printf("Logical Not results in %d\n",!a);
+    //Relational Operators
+    printf("%d\n",a>b);
+    printf("%d\n",a<b);
+    printf("%d\n",a==b);
+    printf("%d\n",a!=b);
+    printf("%d\n",a>=b);
+    printf("%d\n",a<=b);
+    //Bitwise Operators
+    printf("Bitwise And results in %d\n",a&b);
+    printf("Bitwise Or results in %d\n",a|b);
+    printf("Bitwise XOR results in %d\n",a^b);
+    printf("Bitwise NOT results in %d\n",~a);
+    printf("Bitwise Right Shift results in %d\n",a>>1);
+    printf("Bitwise Left Shift results in %d\n",a<<1);
+    //Assignment Operators 
+    printf("%d\n",a+=1);
+    printf("%d\n",a-=1);
+    printf("%d\n",a*=1);
+    //Ternary Operator
+    printf("A and B are %s\n",(a==b) ? "Equal" : "Not Equal");
+    return 0;
+}
